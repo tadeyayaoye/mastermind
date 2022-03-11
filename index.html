@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MMM's</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <br><br><br><br>
+        <h1>MyMasterMind</h1>
+        <br><br><br><br>
+
+        <section>
+            <div class="form">
+                <h2>Entre le code que tu pense être le bon :</h2><br><br><br>   
+                <input type="number" name="anwser1" class="anwser1" placeholder="Le premier numéro" style="border-radius: 5px;font-weight: bold;" />
+                <input type="number" name="anwser2" class="anwser2" placeholder="Le second numéro" style="border-radius: 5px;font-weight: bold;"/>
+                <input type="number" name="anwser3" class="anwser3" placeholder="Le troisième numéro"style="border-radius: 5px;font-weight: bold;"/>
+                <input type="number" name="anwser4" class="anwser4" placeholder="Le dernier numéro" style="border-radius: 5px;font-weight: bold;"/>
+                <br><br><br>
+                <input type="submit" name="send" value="Valider ?" onclick={valid()} style="border-radius: 20px; width: 100px;font-weight: bold;"/>
+                <input Type="button" value="Nouveau Tour !" onClick="history.go(0)" style="border-radius: 20px; width: 100px;font-weight: bold;">
+                <input type="button" name="regles" value="Les règles" href="regles.html" style="border-radius: 20px; width: 100px;font-weight: bold;"/>
+            </div>
+            <div class="reponses">
+
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+</html>

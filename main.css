@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(background.jpg);
+}
+
+h1{
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #454545;
+}
+
+.title{
+    text-align: center;
+    color: blue;
+}
